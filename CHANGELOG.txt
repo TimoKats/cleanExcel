@@ -1,0 +1,8 @@
+Changelog
+===================
+
+v1.0.0 (31/08/2023)
+-------------------
+First release
+Basic functionalities
+Only vertical parsing
