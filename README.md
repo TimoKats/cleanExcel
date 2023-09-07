@@ -1,4 +1,4 @@
-# Clean Excel
+![test](https://github.com/TimoKats/medium_articles/blob/main/img/cleanexcel.png)
 Library that parses and formats chaotic excel spreadsheets into a formatted numpy array or pandas dataframe.
 
 ### Installation
@@ -9,6 +9,8 @@ pip3 install clean-excel
 
 ### Usage
 CleanExcel is coded in a 'functional' manner. Meaning, you don't import classes. Instead, you import the functions you're interested in directly (less coding overhead). There are two functions you'll likely import. First, `load_excel(filename, tab, min_row=None, max_row=None, min_column=None, max_column=None, ignore=[])`. Second, `get_tabs(filename)`.  
+
+![test](https://github.com/TimoKats/medium_articles/blob/main/img/excel-screenshots.png)
 
 The code snippet below shows how you can iterate through excel files and their tabs using CleanExcel. Note, if you don't know the tab names (or there's just one), you can set the value `tabs=None` in the import function. Then, it'll only import the first tab of each spreadsheet.
 
